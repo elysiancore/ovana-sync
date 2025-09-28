@@ -1,0 +1,13 @@
+[server]
+remote_url = ""
+api_token  = ""
+
+[sync]
+interval     = 60
+batch_size   = 500
+backoff_max  = 900
+jitter_ratio = 0.2
+
+[privacy]
+collect_browser_history = true
+exclude_domains = ["*.banco.com", "*.salud.*"]
